@@ -1,0 +1,24 @@
+html{
+    background-color: none;
+    padding: 0px;
+}
+
+/* Style the navigation links inside the navigation bar*/
+.topnavigation a{
+    float: right;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    font-size: 17px;
+}
+/*Change the appearance of the link when you hover over it*/
+.topnavigation a:hover{
+    background-color: ;
+    color: black;
+}
+/*Change the appearance of the link when it is active*/
+.topnavigation a:active{
+    background-color: ;
+    color: white;
+}
