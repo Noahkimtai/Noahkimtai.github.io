@@ -1,11 +1,11 @@
 html{
     background-color: none;
     padding: 0px;
+    font-family: 'Open Sans',sans-serif;
 }
 
 /* Style the navigation links inside the navigation bar*/
-.topnavigation a{
-    float: right;
+.nav a{
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
@@ -13,12 +13,31 @@ html{
     font-size: 17px;
 }
 /*Change the appearance of the link when you hover over it*/
-.topnavigation a:hover{
+.nav a:hover{
     background-color: ;
     color: black;
 }
 /*Change the appearance of the link when it is active*/
-.topnavigation a:active{
+.nav a:active{
     background-color: ;
     color: white;
 }
+/* style the image and the about section of the page*/
+.myimg{
+    float: left;
+    padding: 0px 20px 20px 0px;
+
+}
+ul{
+    list-style: none;
+}
+h3{
+    padding: none;
+}
+
+.fa{
+    text-decoration: none;
+    padding-left: 0%;
+    padding-right: 0.2em;
+}
+span.clear { clear: left; display: block; } /* used to create a seperation between two divs with an image*/
