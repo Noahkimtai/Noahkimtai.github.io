@@ -1,86 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <title>Geomatics Engineer</title>
         <link rel="icon" type="image/x-icon" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
-    <body>
-        <header>
-            <div class="topnavigation">
-                <a href= '#home'> Home</a> <!---use the #targetsectionid to link to a section of the page--->
-                <a href='#projects'>projects</a>
-                <a href='#contact'>Contact</a>
-            </div>
-        </header>
 
-        <div id="about">
-            <img Geomatics Engineer src="image.jpeg" alt="">
-            <h1>About</h1>
+    <body class="bg-light">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a  href= '#home'> Home</a> <!---use the #targetsectionid to link to a section of the page--->
+            </li>
+            <li class="nav-item">
+                <a href='#projects'>Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href='#contact'>Contact</a>
+            </li>
+        </ul>
+
+        <div class="container-fluid" id="about">
+            <img class="myimg" Geomatics Engineer src="image.jpeg" alt="Geomatics Engineering professional">
+           
+            <div class="h3" id="abouttitle">About</div>
             <p>I am a self-motivated, hardworking Geospatial Information Science professional with one year of experience using GIS technologies for water utilities, environment resource management and engineering construction from working at KURA, Mathira Water and Sanitation Company and NEMA.
                 Where I worked on several projects starting from the initial planning stage, data collection, data processing, and analysis up to the output presentation stage. 
                 I am ready to apply my acquired analytical skills and personal attributes to solving problems facing society while recognizing the role of technology, teamwork, and individual contribution in providing lasting solutions.
                 I have a positive attitude towards learning new skills. </p>
-
+            <span class="clear"></span>
         </div>
-        <div id="education">
-            <ul>
-                <div>Dedan Kimathi University of Technology</div>
-                <li>BSc. Geomatics & Geospatial Information Systems; (Second Class Upper Division)      2020	</li>
-            </ul>
-
+        <div class="container-fluid">
+            <div class="fa fa-graduation-cap fa-3x" >Education</div>
+            <div>Dedan Kimathi University of Technology</div>
+            <div>BSc. Geomatics & Geospatial Information Systems; (Second Class Upper Division)      2020 </div>	
         </div>
         <div id="experience">
-            <h3>Ass. Surveyor at Kenya Urban Roads Authority</h3>
-            <p>Carry out field survey for the purpose of road design and implementation</p>
-            <h3>GIS Analyst intern at Mathira Water & Sanitation Company</h3>
-            <p>Assit in geospatial data collection and analysis</p>
-            <h3>External attachment at The Survey of Kenya, Ruaraka.</h3>
-            <p>Assit in geospatial data collection and analysis for purpose of land registration</p>
-            <h3>External attachment at National Environment Management Authority (NEMA).</h3>
-            <p>Assit in geospatial data collection and analysis for the purpose of environment management</p>
+            <div class="h3">Work Experience</div>
+            <div class="h5">Ass. Surveyor at Kenya Urban Roads Authority</div>
+            <div>Carry out field survey for the purpose of road design and implementation</div>
+            <div class="h5">GIS Analyst intern at Mathira Water & Sanitation Company</div>
+            <div>Assit in geospatial data collection and analysis</div>
+            <div class="h5">External attachment at The Survey of Kenya, Ruaraka.</div>
+            <div>Assit in geospatial data collection and analysis for purpose of land registration</div>
+            <div class="h5">External attachment at National Environment Management Authority (NEMA).</div>
+            <div>Assit in geospatial data collection and analysis for the purpose of environment management</div>
+
+        </div class="container-fluid" >
+            <div class="h3">Skills</div>
+            
+            <div>
+                <div class="h5">Geospatial analysis</div>
+                <img class="myimg"src="GIS.jpg">
+                <div>Geocoding</div>
+                <div>Coordinate Systems</div>
+                <div>Cartographic design</div>
+                <div>Spatial data analysis</div>
+                <span class="clear"></span>
+            </div>
+
+            <div>
+                    <div class="h5">Computer Programming</div> 
+                    <div class="fa fa-file-chart-column fa-2x">Data Analysis</div>
+                    <div class="fa fa-code fa-2x">Web Mapping</div>
+                    <div class="fa fa-database fa-2x">Database</div>
+                    <div class="fa fa-git fa-2x"> Version Control</div>
+            </div>
+            
+            <div>
+                <div class="h5">Surveying</div> 
+                <div>Engineering Survey</div>
+                <div>Cadastral Survey</div>
+            </div>
+
+            <div>
+                <div class="h5">Remote Sensing </div>
+                <div>Satelite Images Preprocessing</div>
+                <div>Satelite Images Analysis</div>
+                <div>Satelite Images Classification</div>
+                <div>Post Classification Analysis</div>
+            </div>
 
         </div>
-        <div id="skills">
-            <h3> Geospatial analysis</h3>
-            <ul>
-                <li>Geocoding</li>
-                <li>Coordinate Systems</li>
-                <li>Cartographic design</li>
-                <li>Spatial data analysis</li>
-            </ul>
-            <h3>Computer Programming</h3>
-            <ul>
-                <li>Python</li>
-                <li>Web Mapping</li>
-                <li>Database</li>
-                <li>Version Control</li>
-            </ul>
-            <h3>Surveying</h3>
-            <ul>
-                <li>Engineering Servey</li>
-                <li>Cadastral Servey</li>
-            </ul>
-            <h3>Remote Sensing</h3>
-            <ul>
-                <li>Satelite Images preprocessing</li>
-                <li>Satelite Images analysis</li>
-                <li>Satelite Images classification</li>
-                <li>post classification analysis</li>
-            </ul>
-
         </div>
-    </div>
-    <div id="projects">
-        <h1>projects</h1>
-    </div>
-</div>
-<div id="contact">
-    <h1>Contact</h1>
-    <a href="mailto:kimtaichepkwony@yahoo.com">Send email
-    </a>
-</div>
+
+        <div id="projects">
+            <div class="h3">projects</div>
+            <div class="h5">Feature extraction from Satelites using Object based classification
+                <img class="img-fluid" src="featureExt.jpg"> <!--make the imge responsive to screen size-->
+            </div>
+            <div class="row">  
+                <div class="col"> Grading marks Using Pandas python
+                    <a href="https://github.com/Noahkimtai/Marks_grading.git"> Check the project on GitHub</a>"
+                </div>
+                <div class="col">Analysing Emergency response data using Pandas
+                    <a href="https://github.com/Noahkimtai/Emergency_Response_Analysis.git"> Check the project on GitHub</a>"
+                </div>
+            </div>
+            <span class="clear"></span> 
+        </div>
+
+        <div>
+            <div class="h3">Contact</div>
+            <a class="fa fa-github fa-3x" href="https://github.com/Noahkimtai" aria-hidden="true"></a>
+            <a class="fa fa-linkedin fa-3x" href="https://www.linkedin.com/in/noah-kimutai-1636b715a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BR04fDniQRrSI7iIXk2%2Fp1g%3D%3D" aria-hidden="true"></a>
+            <a  class="fa fa-envelope fa-3x" href="mailto:kimtaichepkwony@yahoo.com" aria-hidden="true"></a>
+        </div>
 
     </body>
 </html>
