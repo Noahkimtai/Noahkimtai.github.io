@@ -2,6 +2,10 @@ html{
     background-color: none;
     padding: 0px;
     font-family: 'Open Sans',sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    transition: 0.3s;
 }
 
 /* Style the navigation links inside the navigation bar*/
@@ -23,10 +27,14 @@ html{
     color: white;
 }
 /* style the image and the about section of the page*/
-.myimg{
+#myimg{
     float: left;
-    padding: 0px 20px 20px 0px;
+    padding: 20px 20px 20px 0px;
+}
 
+.lead{
+    color: #002D5B;
+    line-height: 1.5em;
 }
 ul{
     list-style: none;
@@ -36,8 +44,12 @@ h3{
 }
 
 .fa{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
     padding-left: 0%;
     padding-right: 0.2em;
 }
 span.clear { clear: left; display: block; } /* used to create a seperation between two divs with an image*/
+
