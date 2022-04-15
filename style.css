@@ -1,7 +1,7 @@
 html{
     background-color: none;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Russo One','Open Sans',sans-serif;
     scroll-behavior: smooth;
 }
 body{
@@ -29,10 +29,20 @@ body{
 /* style the image and the about section of the page*/
 #myimg{
     float: left;
-    padding: 20px 20px 20px 0px;
+    padding: 20px 30px 20px 0px;
+}
+
+#Home #contact{
+	background-color: #fff;
+}
+
+#projects, #nav{
+	background-color: rgb(126, 76, 116,0.3);
+    /*opacity: 0.8;*/
 }
 
 .lead{
+    font-family: architect;
     color: #002D5B;
     line-height: 1.5em;
 }
