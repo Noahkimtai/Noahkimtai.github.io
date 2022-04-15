@@ -63,3 +63,7 @@ h3{
 }
 span.clear { clear: left; display: block; } /* used to create a seperation between two divs with an image*/
 
+#map{
+    height: 180px;
+}
+
